@@ -40,15 +40,17 @@ The URL Inspection API **only reads status — it never submits anything to Goog
 
 ## Numbers from our own sites
 
-Across 12 production sites (data through August 2026):
+Across 12 production sites (data through August 2026, both groups measured on the same clock — from publication date):
 
 | Metric | URLs surfaced by the widget | Comparable URLs without the widget |
 |---|---|---|
 | Not-indexed → indexed | **68%** (2,278 / 3,329) | 41% (3,350 / 8,257) |
-| Median time to indexed | **3 days** | 24 days |
-| Indexed within 7 days | **59%** | 24% |
+| Median days from publication to indexed | **35** | 38 |
+| Indexed within 30 days of publication | **42%** | 38% |
 
-Bias note: the widget receives the *most neglected* URLs (never crawled, or not crawled the longest), i.e. the hardest cases — the comparison is stacked against it, not for it. Full methodology in the upcoming case study.
+The conversion gap is the headline. On speed, the honest picture: **once a URL enters the widget, half are indexed within 3 days** (median; 59% within a week) — and these are pages that had already been waiting for weeks. That figure uses a different clock (widget entry) and is deliberately not compared to the control group.
+
+Bias note: the widget receives the *most neglected* URLs (never crawled, or not crawled the longest), i.e. the hardest cases — the comparison is stacked against it, not for it. Full methodology and a single-site deep dive: **[case study — a new site from 0 to 98.6% indexed in 5 months](https://zinkwp.com/case-study.html)**.
 
 ## Architecture & data
 
