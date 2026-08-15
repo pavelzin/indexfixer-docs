@@ -3,7 +3,7 @@
 
 **[IndexFixer Pro](https://zinkwp.com/indexfixer.html)** is a WordPress plugin that shows the real Google indexing status of every URL on your site — inside wp-admin, with history — and runs a dynamic internal-linking loop that helps Google discover the pages it keeps missing.
 
-This repository is the public technical documentation. The plugin itself is a paid product (€50/year, single site, [14-day refund](https://zinkwp.com/terms-of-service.html)).
+This repository is the public technical documentation. The plugin itself is a paid product ($60/year, single site, [14-day refund](https://zinkwp.com/terms-of-service.html)).
 
 ## What it does
 
